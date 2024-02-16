@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route   } from "react-router-dom";
 
 const queryClient = new QueryClient();
 function App() {
-  const[login , setLogin] = useState(false)
+  const[login , setLogin] = useState(true)
   const SetLocalLogin= async ()=>{
     try{
       let userLogin = await localStorage.getItem('Count_me-in');

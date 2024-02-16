@@ -13,7 +13,7 @@ html {
 
 .scroll-view , .scroll-view-component{
   overflow-y: scroll;
-  scrollbar-width: thin;
+  /* scrollbar-width: thin; */
   height: 90vh;
 
 }

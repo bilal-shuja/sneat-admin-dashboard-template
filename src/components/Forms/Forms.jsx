@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
+
 
 const Forms = () => {
+
   return (
     <>
-    <div className="content-wrapper">
-<div className="container-xxl flex-grow-1 container-p-y">
+ <div className="scroll-view-component scrollbar-secondary-component">
+<div className="content-wrapper">
+<div className="container-xxl flex-grow-1">
   <h4 className="fw-bold py-3 mb-4"><span className="text-muted fw-light">Forms/</span> Horizontal Layouts</h4>
-  {/* Basic Layout & Basic with Icons */}
+  
+  
   <div className="row">
-    {/* Basic Layout */}
-    <div className="col-xxl">
+  <div className="col-xxl">
       <div className="card mb-4">
         <div className="card-header d-flex align-items-center justify-content-between">
           <h5 className="mb-0">Basic Layout</h5>
@@ -60,7 +63,6 @@ const Forms = () => {
         </div>
       </div>
     </div>
-    {/* Basic with Icons */}
     <div className="col-xxl">
       <div className="card mb-4">
         <div className="card-header d-flex align-items-center justify-content-between">
@@ -126,8 +128,12 @@ const Forms = () => {
       </div>
     </div>
   </div>
+
+
+
 </div>
 
+    </div>
     </div>
     </>
   )

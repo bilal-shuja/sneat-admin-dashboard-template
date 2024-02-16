@@ -124,7 +124,7 @@ const Login = () => {
                   </g>
                 </svg>
               </span>
-              <span className="app-brand-text demo text-body fw-bolder">Avant garde</span>
+              <span className="app-brand-text demo text-body fw-bolder">Login IN</span>
             </a>
           </div>
           {/* /Logo */}

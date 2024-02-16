@@ -30,19 +30,17 @@ const Navbar = ({toggleSidebar}) => {
               <i className="bx bx-menu bx-sm me-3" />
             </a>
             {/* Search */}
-            <div className="navbar-nav align-items-center">
+            {/* <div className="navbar-nav align-items-center">
               <div className="nav-item d-flex align-items-center">
                 <i className="bx bx-search fs-4 lh-0" />
                 <input type="text" className="form-control border-0 shadow-none" placeholder="Search..." aria-label="Search..." />
               </div>
-            </div>
+            </div> */}
             {/* /Search */}
             <ul className="navbar-nav flex-row align-items-center ms-auto">
-              {/* Place this tag where you want the button to render. */}
-              <li className="nav-item lh-1 me-3">
+              {/* <li className="nav-item lh-1 me-3">
                 <a className="github-button" href="https://github.com/themeselection/sneat-html-admin-template-free" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themeselection/sneat-html-admin-template-free on GitHub">Star</a>
-              </li>
-              {/* User */}
+              </li> */}
               <li className="nav-item navbar-dropdown dropdown-user dropdown">
                 <a className="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                   <div className="avatar avatar-online">
@@ -100,7 +98,6 @@ const Navbar = ({toggleSidebar}) => {
                   </li>
                 </ul>
               </li>
-              {/*/ User */}
             </ul>
           </div>
         </nav>
