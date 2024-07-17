@@ -95,17 +95,17 @@ const Sidebar = ({isVisible , toggleSidebar}) => {
 
 
         <li className="menu-item mt-4">
-          <Link to="/" className="menu-link">
+          <Link to="/Forms" className="menu-link">
             <i className="menu-icon tf-icons fa-solid fa-magnifying-glass" />
-            <div data-i18n="Home">Stability AI</div>
+            <div data-i18n="Home">Form</div>
           </Link>
         </li>
 
         
         <li className="menu-item mt-2">
-          <Link to="/GenerateImageArt" className="menu-link">
+          <Link to="/Sheets" className="menu-link">
             <i className="menu-icon tf-icons fa-solid fa-compass" />
-            <div data-i18n="Explore">Tabular</div>
+            <div data-i18n="Explore">Sheet</div>
           </Link>
         </li>
 
